@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:news2/ui/Home/home_screen.dart';
+import 'package:news2/ui/Home/Home%20Screen.dart';
 import 'package:news2/utils/app_theme.dart';
 
 import 'firebase_options.dart';
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       },
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
     );
   }
 }
