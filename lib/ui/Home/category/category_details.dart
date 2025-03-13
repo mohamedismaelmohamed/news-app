@@ -45,7 +45,7 @@ class _categoryDetailsState extends State<categoryDetails> {
           return Column(
             children: [
               Text(
-                snapshot.data!.massage!,
+                snapshot.data!.message!,
                 style: Theme.of(context).textTheme.headlineLarge,
               ),
               ElevatedButton(
