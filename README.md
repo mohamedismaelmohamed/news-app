@@ -1,16 +1,39 @@
-# news2
+# News App 📰
 
-A new Flutter project.
+[![BLoC](https://img.shields.io/badge/BLoC-02569B?style=for-the-badge&logo=bloc&logoColor=white)](https://bloclibrary.dev/)
+[![Easy Localization](https://img.shields.io/badge/Localization-0175C2?style=for-the-badge&logo=flutter&logoColor=white)](https://pub.dev/packages/easy_localization)
 
-## Getting Started
+A feature-rich news discovery application built with Flutter. Stay updated with the latest headlines, search for articles, and enjoy personalized news recommendations.
 
-This project is a starting point for a Flutter application.
+## Demo Video 🎥
 
-A few resources to get you started if this is your first Flutter project:
+Watch the demo video below to see the app in action:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[![Watch the video](https://img.youtube.com/vi/-wgFGf3xSL4/maxresdefault.jpg)](https://www.youtube.com/shorts/-wgFGf3xSL4)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features ✨
+
+- **News Discovery** 📰
+  - General/Sports/Tech..etc categories
+- **Search** 🔍
+  - Find Articals by keyword
+- **Localization** 🌍
+  - Multi-language support (English, Arabic)
+- **Responsive UI** 📱
+  - Clean and intuitive design suitable for different device sizes
+- **Dark Mode** 🌗
+  - Beautiful dark and light themes
+
+## Technologies 🛠️
+
+- **State Management**: BLoC (Cubit)
+- **News API**: [News API](https://www.newsapi.org/)
+- **Localization**: Easy Localization (JSON-based)
+- **Additional Packages**:
+  - Cached Network Image (Image caching)
+  - Easy Localization
+  - loader_overlay
+  - google_fonts
+  - http
+  - flutter_screenutil
+  - provider
